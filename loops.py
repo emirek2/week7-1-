@@ -32,10 +32,16 @@ def loop():
   #   print(a,b)
 
 
-  coins=30
-  while coins <40:
-    print (f'I have {coins} coins')
-    coins+=1
+  # coins=30
+  # while coins <40:
+  #   print (f'I have {coins} coins')
+  #   coins+=1
+
+  answer='y'
+  while answer == 'y':
+    answer=input('do you want to continue(y/n)  ')
+  else:
+    print('thank you')
 
   
   ###################################loops intro######################################
